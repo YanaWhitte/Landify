@@ -4,9 +4,13 @@
 
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, 
+    user-scalable=no">
     <title>Landify</title>
+    <link rel="shortcut icon" href="icons/logo-icon.svg" type="image/svg">
     <link rel="stylesheet" href="fonts.css">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="adaptation.css">
 </head>
 
 <body>
@@ -14,17 +18,19 @@
         <div class="header-nav row ">
             <div class="nav-left row ">
                 <img src="icons/logo.svg " alt="logo ">
-                <div><a href="# ">About</a></div>
-                <div><a href="# ">Products</a></div>
-                <div><a href="# ">Pricing</a></div>
-                <div><a href="# ">Blog</a></div>
-                <div><a href="# ">Jobs</a></div>
-                <div class="row">
-                    <a href="# ">More</a>
-                    <img src="icons/select-arrow.svg " alt="open" class="open-btn">
-                </div>
+                <ol class="row">
+                    <li><a href="# ">About</a></li>
+                    <li><a href="# ">Products</a></li>
+                    <li><a href="# ">Pricing</a></li>
+                    <li><a href="# ">Blog</a></li>
+                    <li><a href="# ">Jobs</a></li>
+                    <li class="row more-btn">
+                        <a href="# ">More</a>
+                        <img src="icons/select-arrow.svg " alt="open" class="more-icon">
+                    </li>
+                </ol>
             </div>
-            <div class="nav-right ">
+            <div class="nav-right row">
                 <img src="icons/download-google-play.svg " alt="download with google play" class="gply">
                 <img src="icons/download-app-store.svg " alt="download with app store" class="appst">
             </div>
@@ -276,7 +282,6 @@
                 <img src="icons/download-google-play.svg " alt="download with google play" class="gply">
             </div>
         </footer>
-
     </main>
-
+    <script src="main.js"></script>
 </body>
