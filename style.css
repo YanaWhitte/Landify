@@ -1,13 +1,7 @@
-body,
-h1,
-h2,
-h3,
-ol,
-p,
-a,
-span {
+* {
   margin: 0;
   padding: 0;
+  transition: 1s ease-in-out;
 }
 
 body {
@@ -131,6 +125,11 @@ header {
 
 .header-content .btn:active {
   background: #914ede;
+}
+
+.header-content .phone {
+  width: 100%;
+  height: auto;
 }
 
 .logos-section {
